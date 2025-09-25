@@ -1,0 +1,1 @@
+# Even if this function is empty, it tells test to be treated as packages
