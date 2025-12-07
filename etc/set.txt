@@ -1,0 +1,18 @@
+START: houses = []
+
+Student 1: Hermione → "Gryffindor" → NOT in houses → ADD
+houses = ["Gryffindor"]
+
+Student 2: Harry → "Gryffindor" → ALREADY in houses → SKIP
+houses = ["Gryffindor"]
+
+Student 3: Ron → "Gryffindor" → ALREADY in houses → SKIP  
+houses = ["Gryffindor"]
+
+Student 4: Draco → "Slytherin" → NOT in houses → ADD
+houses = ["Gryffindor", "Slytherin"]
+
+Student 5: Padma → "Ravenclaw" → NOT in houses → ADD
+houses = ["Gryffindor", "Slytherin", "Ravenclaw"]
+
+END: houses = ["Gryffindor", "Slytherin", "Ravenclaw"]

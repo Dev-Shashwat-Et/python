@@ -1,0 +1,20 @@
+When Should You Use Classes?
+USE Classes When:
+You're dealing with multiple instances of similar things
+
+You need to bundle data with actions
+
+You want to create reusable components
+
+You're modeling real-world entities
+
+Your code is getting messy with many related variables
+
+DON'T Need Classes When:
+You're writing a simple script (< 100 lines)
+
+You just need a one-time function
+
+You're dealing with simple data transformation
+
+The overhead isn't justified
